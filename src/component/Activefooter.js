@@ -4,7 +4,7 @@ function Activefooter(props) {
     return (
         <div className='activeF px-3  ' style={{backgroundColor:"#3D3A41"}}>
             <div className=' Cinfo ps-5'>
-                <p style={{}}>@modernpoint_</p>
+                <p>@modernpoint_</p>
                 <img className='pt-3'src="../../img/footer/footerInstagram.jpg" alt="인스타그램사진" />
                 <ul className='d-flex justify-content-start py-5'>
                     <li><a href="#none">@INSTARGRAM</a></li>
