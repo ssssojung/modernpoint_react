@@ -1,0 +1,46 @@
+[
+    {
+        "iteminfo":
+        [
+            {
+                "thumblink":"../../img/arrivals/arrivals_1.jpg",
+                "description":"룸스프레이 섬유향수 150ml",
+                "price":"9,500원"
+            },
+            {
+                "thumblink":"../../img/arrivals/arrivals_2.jpg",
+                "description":"소이 캔들 향초 100g",
+                "price":"11,500원"
+            },
+            {
+                "thumblink":"../../img/arrivals/arrivals_3.jpg",
+                "description":"원목 인센스 스틱 \n홀더 향꽃이 받침대",
+                "price":"17,800원"
+            },
+            {
+                "thumblink":"../../img/arrivals/arrivals_4.jpg",
+                "description":"원목 각인 이오난사 화분 LED 무드등",
+                "price":"44,800원"
+            },
+            {
+                "thumblink":"../../img/arrivals/arrivals_5.jpg",
+                "description":"시그니처 디퓨저 실내방향제 200ml",
+                "price":"24,800원"
+            },
+            {
+                "thumblink":"../../img/arrivals/arrivals_6.jpg",
+                "description":"원목 스퀘어 무드등",
+                "price":"24,800원"
+            }
+            
+        ]
+    },
+    {
+        "shopinfo":
+        [
+            {
+                
+            }
+        ]
+    }
+]

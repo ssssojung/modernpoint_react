@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Hahmlet-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/Hahmlet-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+ul,li,a,p{margin:0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;color: #333;}
+body{
+    font-family: 'Hahmlet-Regular';
+    font-size: 16px;
+}
+.fullImg{
+    min-height: 100vh;
+    
+    background-size: cover;
+    background-repeat: no-repeat ;
+}
+h2{
+    font-size: 5rem;
+}
+.btn_box{
+    padding: 0 20px;
+    border: 1px solid white;
+   } 

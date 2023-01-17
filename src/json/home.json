@@ -1,0 +1,23 @@
+[
+    {"navi":
+    [
+        {
+            "naviTitle":"",
+            "naviId":"",
+            "naviLink":""
+        }
+    ]
+
+    },
+    {"mainbanner":
+    [
+        {"mainbannerImg":"../../img/home/Main_1.jpg"},
+        {"mainbannerImg":"../../img/home/Main_2.jpg"},
+        {"mainbannerImg":"../../img/home/Main_3.jpg"},
+        {"mainbannerImg":"../../img/home/Main_4.jpg"},
+        {"mainbannerImg":"../../img/home/Main_5.jpg"}
+    ]
+
+    }
+]
+ 
