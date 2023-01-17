@@ -1,3 +1,27 @@
 #footer{
-    height: 30vh;
+    background-color: #3D3A41;
+    color: white;
+    a{color: white;}
+    span{font-size: 1rem;}
+    .copy{
+        position: absolute;
+        left: 25%;
+    }
+    .activeF{
+        height: 515px;
+        
+        .Cinfo{
+            position: absolute;
+            left: 25%;
+            height: 500px;
+            border-left: solid 1px white;
+            img{
+                top: 10%;
+                width: 80%;
+            }
+            li{padding-right: 45px ;}
+            p{line-height: 25px;}
+
+        }
+    }
 }
