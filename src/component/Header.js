@@ -14,7 +14,7 @@ function Header(props) {
                         <img src="../../img/home/logo_white.svg" alt="logo" />
                     </div>
                     <a href="#none" className='btn_menu' onClick={handleToggle}>
-                        메뉴나와라
+                        <span>메뉴 만들거</span>
                     </a>
                 </div>
             </div>
@@ -25,9 +25,9 @@ function Header(props) {
                                 ONE OBJECT, MORE VALUE<br/>
                                 <span>하나의 사물, 공간의 가치를 더하다.</span>
                             </h2>
-                            <a href='#none'><p>NEW ARRIVALS</p></a>
-                            <a href='#none'><p>SHOP</p></a>
-                            <a href='#none'><p>BRAND STORY</p></a>
+                            <a href='#arrivals'><p>NEW ARRIVALS</p></a>
+                            <a href='#shop'><p>SHOP</p></a>
+                            <a href='#brandstory'><p>BRAND STORY</p></a>
                         </div>
                     </div>
             </div>

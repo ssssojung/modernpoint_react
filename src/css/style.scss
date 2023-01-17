@@ -10,7 +10,21 @@ a{text-decoration: none;color: #333;}
 body{
     font-family: 'Hahmlet-Regular';
     font-size: 16px;
+    height: 100%;
 }
+// html{
+//     cursor: none;
+//     height: 100%;
+// }
+// #circularCursor{
+//     background-color: white;
+//     border: 1px solid yellowgreen;
+//     width:20px; height: 20px;
+//     border-radius: 50%;
+//     position: absolute;
+//     z-index: 1;
+// }
+
 .fullImg{
     min-height: 100vh;
     
@@ -21,6 +35,22 @@ h2{
     font-size: 5rem;
 }
 .btn_box{
-    padding: 0 20px;
+    padding: 10px 25px;
     border: 1px solid white;
-   } 
+   }
+
+//hover시 이미지 확대 
+.scale {
+    transform: scale(1); /*default*/
+    -webkit-transform: scale(1); /*chrome*/
+    -moz-transform: scale(1); /*FireFox*/
+    -o-transform: scale(1); /*Oprea*/
+    transition: all 0.3s ease-in-out;  
+    
+  }
+  .scale:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }

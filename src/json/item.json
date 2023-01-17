@@ -36,11 +36,12 @@
         ]
     },
     {
-        "shopinfo":
+        "footer":
         [
-            {
-                
-            }
+            {"snsImg":"../../img/footer/sns_1.jpg"},
+            {"snsImg":"../../img/footer/sns_2.jpg"},
+            {"snsImg":"../../img/footer/sns_3.jpg"},
+            {"snsImg":"../../img/footer/sns_4.jpg"}
         ]
     }
 ]

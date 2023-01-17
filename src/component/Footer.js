@@ -11,11 +11,11 @@ function Footer(props) {
                     {plusicon ? 'Copyright ⓒ 모던포인트 All Rights Reserved':null}
                     </span>
                 <a href="#none" onClick={()=>{updateclose(!plusicon)}} className=''>
-                    {plusicon ? '+':'x'  }
+                    {plusicon ? <i className='xi-plus-thin'></i>:<i className='xi-close-thin'></i>  }
                 </a>
                     
             </div>
-            {plusicon?null:<Activefooter/>}
+            {plusicon?null:<Activefooter snsI='footer'/>}
         </section>
     );
 }

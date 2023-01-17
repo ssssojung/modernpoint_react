@@ -1,25 +1,26 @@
 #arrivals{
+   color: white;
    height: 100vh;
     .titleT{
         position: absolute;
         left: 50px;
         bottom: 145px;
         align-self:end;
-        color: white;
         a{color: white;}
         p{font-size: 1.2rem;}
     }
    .btn_box{
-    padding: 0 20px;
-    border: 1px solid white;
+      padding: 10px 25px;
+      border: 1px solid white;
+      margin-top: 30px;
+
    } 
    .subT{
-    position: absolute;
-    left: 753px;
-    bottom: 692px;
-    font-size: 2.5rem;
-    text-align: left;
-    color: white;
+      position: absolute;
+      left: 753px;
+      bottom: 692px;
+      font-size: 2.5rem;
+      text-align: left;
    }
    .mySwiper{
     // position: absolute;
