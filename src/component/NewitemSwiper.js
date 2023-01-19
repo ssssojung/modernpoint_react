@@ -11,21 +11,21 @@ function NewitemSwiper(props) {
     return (
         <>
            <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        freeMode={true}
-        modules={[FreeMode]}
-        className="mySwiper d-flex align-items-center"
-        
-      >
+            slidesPerView={3}
+            spaceBetween={30}
+            freeMode={true}
+            modules={[FreeMode]}
+            className="mySwiper d-flex align-items-center"
+            
+            >
 
         {
             Niteminfo.map((item, index) =>{
                 return(
                     <SwiperSlide>
                         <div className='item_box '>
-                                <img className='' src={item.thumblink} alt="itemImg" />
-                            <div className='py-3  betweenText d-flex justify-content-between'>
+                            <img src={item.thumblink} alt="itemImg" />
+                            <div className='py-3 text-dark betweenText d-flex justify-content-between'>
                                 <span>{item.description}</span>
                                 <span>{item.price}</span>
                             </div>

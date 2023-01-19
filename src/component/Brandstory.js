@@ -4,7 +4,14 @@ import '../css/brandstory.scss';
 function Brandstory(props) {
     return (
         <section id='brandstory' className='fullImg' style={{backgroundImage:"url(../../img/brandstroy.jpg)"}}>
-            브랜드스토리입니다
+            dkdkddkkdk
+            dkdkddkkdk
+            dkdkddkkdk
+            dkdkddkkdk
+            dkdkddkkdk
+            dkdkddkkdk
+            dkdkddkkdk
+            dkdkddkkdk
         </section>
     );
 }

@@ -25,9 +25,9 @@ function Header(props) {
                                 ONE OBJECT, MORE VALUE<br/>
                                 <span>하나의 사물, 공간의 가치를 더하다.</span>
                             </h2>
-                            <a href='#arrivals'><p className='py-5'>NEW ARRIVALS</p></a>
-                            <a href='#shop'><p className='py-5'>SHOP</p></a>
-                            <a href='#brandstory'><p className='py-5'>BRAND STORY</p></a>
+                            <a href='#arrivals'onClick={handleToggle}><p className='py-5'>NEW ARRIVALS</p></a>
+                            <a href='#shop'onClick={handleToggle}><p className='py-5'>SHOP</p></a>
+                            <a href='#brandstory'onClick={handleToggle}><p className='py-5'>BRAND STORY</p></a>
                         </div>
                     </div>
             </div>
