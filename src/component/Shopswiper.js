@@ -1,15 +1,18 @@
 import React from 'react';
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
-import { FreeMode, Pagination } from "swiper";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import "swiper/css";
+// import "swiper/css/free-mode";
+// import "swiper/css/pagination";
+// import { FreeMode, Pagination } from "swiper";
  import shopitem from '../json/item.json';
 
 function Shopswiper(props) {
-    // const iteminfo = shopitem[1].shop[0].diffuser;
+    //const iteminfo = shopitem[props.shopitem];
+    const iteminfo = shopitem[props.objnm].shop[0].diffuser;
+    console.log(iteminfo)
 
     return (
+        
         <div className='container'>
 
                 <h3 className='py-5'>{props.title}</h3>
