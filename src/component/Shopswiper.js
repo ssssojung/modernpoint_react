@@ -4,48 +4,55 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { FreeMode, Pagination } from "swiper";
-// import shopitem from '../json/item.json';
+ import shopitem from '../json/item.json';
 
 function Shopswiper(props) {
-    // const iteminfo = shopitem[1][props.shopI]
-    return (
-        <>
-            <Swiper
-            slidesPerView={1}
-            spaceBetween={30}
-            freeMode={true}
-            modules={[FreeMode]}
-            className="mySwiper d-flex align-items-center"
-            
-            >
+    // const iteminfo = shopitem[1].shop[0].diffuser;
 
-                {/* {
-                    Niteminfo.map((item, index) =>{
-                        return( */}
-                            <SwiperSlide>
-                                리액트1
-                                {/* <div className='item_box '>
-                                    <img src={item[0].img} alt="itemImg" />
-                                    <div className='py-3 betweenText d-flex justify-content-between'>
-                                        <span>{item[0].description}</span>
-                                        <span>{item[0].price}</span>
-                                    </div>
-                                        <p className='btn_cart'>CART</p>
-                                        
-                                </div> */}
-                            </SwiperSlide>
-                            <SwiperSlide>
-                            리액트2
-                            </SwiperSlide>
-                            <SwiperSlide>
-                            리액트3
-                            </SwiperSlide>
-                        {/* )
-                    })
+    return (
+        <div className='container'>
+
+                <h3 className='py-5'>{props.title}</h3>
+                <img src={props.shop} alt="" />
+                {/* <Swiper
+                slidesPerView={3}
+                spaceBetween={30}
+                freeMode={true}
+                modules={[FreeMode]}
+                className="mySwiper d-flex align-items-center"
+                
+                >
+
+            {
+                iteminfo.map((v, i) =>{
+                    return(
+                        <SwiperSlide key={'shop'+i}>
+                            <p >{props.objnm}</p>
+                            <div className='item_box '>
+                                <img src={v.img} alt="itemImg" />
+                                <div className='py-3 text-dark betweenText d-flex justify-content-between'>
+                                    <span>{v.description}</span>
+                                    <span>{v.price}</span>
+                                </div>
+                                    <p className='btn_cart'>CART</p>
+                                    
+                            </div>
+                        </SwiperSlide>
+                    )
+                })
+            }
+            
+                </Swiper>  */}
+                {/* <ul>
+                {
+               //console.log(shopitem[1].shop[0].diffuser)
+               iteminfo.map((v, i)=>{
+return <li key={'shop'+i}><img src={v.img}></img></li>
+               })
                 }
-         */}
-      </Swiper> 
-        </>
+                </ul> */}
+            
+        </div>
     );
 }
 

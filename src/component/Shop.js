@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import '../css/shop.scss';
 import Shopswiper from './Shopswiper';
+import shopitem from '../json/item.json';
 
 function Shop(props) {
     const [shopnm, shopnmupdate] = useState(['ALL','allitem']);
@@ -10,14 +11,15 @@ function Shop(props) {
     }
     return (
         <section id='shop'>
+            {console.log(shopnm)}
             <div className='container d-flex justify-content-start'>
-                <button onClick={btnupdate} datasrc={['allitem']}>ALL</button>
-                <button onClick={btnupdate} datasrc={['allitem']}>DIFFUSER</button>
-                <button onClick={btnupdate} datasrc={['allitem']}>LAMP</button>
-                <button onClick={btnupdate} datasrc={['allitem']}>ETC</button>
+                <button onClick={btnupdate} datasrc={['ALL','allitem']}>ALL</button>
+                <button onClick={btnupdate} datasrc={['DIFFUSER','diffuser']}>DIFFUSER</button>
+                <button onClick={btnupdate} datasrc={['LAMP','lamp']}>LAMP</button>
+                <button onClick={btnupdate} datasrc={['ETC','etc']}>ETC</button>
             </div>
-            <Shopswiper />
-            {/* shopI="shop" */}
+            
+            <Shopswiper title={shopnm[0]} objnm={shopnm[1]} />
         </section>
     );
 }

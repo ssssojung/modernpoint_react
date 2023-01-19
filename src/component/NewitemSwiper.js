@@ -22,7 +22,7 @@ function NewitemSwiper(props) {
         {
             Niteminfo.map((item, index) =>{
                 return(
-                    <SwiperSlide>
+                    <SwiperSlide key={'newbanner'+index}>
                         <div className='item_box '>
                             <img src={item.thumblink} alt="itemImg" />
                             <div className='py-3 text-dark betweenText d-flex justify-content-between'>
@@ -37,7 +37,7 @@ function NewitemSwiper(props) {
             })
         }
         
-      </Swiper> 
+            </Swiper> 
         </>
     );
 }

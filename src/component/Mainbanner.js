@@ -31,7 +31,7 @@ function Mainbanner(props) {
                 {
                 banner.map((item, index)=>{
                     return(
-                            <SwiperSlide className='fullImg' style={{ backgroundImage : `url(${item.mainbannerImg})`, height:"100vh" }}>
+                            <SwiperSlide key={'mainbanner'+index} className='fullImg' style={{ backgroundImage : `url(${item.mainbannerImg})`, height:"100vh" }}>
                             </SwiperSlide>
                         )
                         
