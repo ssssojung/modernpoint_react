@@ -1,0 +1,44 @@
+
+         {               
+            "diffuser":
+                {
+                    "cls":"",
+                    "img":[
+                            "../../img/shop/diffuser1.jpg",
+                            "../../img/shop/diffuser2.jpg",
+                            "../../img/shop/diffuser3.jpg",
+                            "../../img/shop/diffuser4.jpg",
+                            "../../img/shop/diffuser5.jpg",
+                            "../../img/shop/diffuser6.jpg"
+                            ],
+                    "description":"",
+                    "price":""
+                },
+            "lamp":
+                {
+                    "cls":"",
+                    "img":[
+                            "../../img/shop/lamp1.jpg",
+                            "../../img/shop/lamp2.jpg",
+                            "../../img/shop/lamp3.jpg",
+                            "../../img/shop/lamp4.jpg",
+                            "../../img/shop/lamp5.jpg"
+                            ],
+                    "description":"",
+                    "price":""
+                },
+            "etc":
+                {
+                    "cls":"",
+                    "img":[
+                            "../../img/shop/etc1.jpg",
+                            "../../img/shop/etc2.jpg",
+                            "../../img/shop/etc5.jpg"
+                            ],
+                    "description":"",
+                    "price":""
+                }
+                
+         }
+       
+    

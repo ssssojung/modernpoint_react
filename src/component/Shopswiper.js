@@ -4,19 +4,36 @@ import React from 'react';
 // import "swiper/css/free-mode";
 // import "swiper/css/pagination";
 // import { FreeMode, Pagination } from "swiper";
- import shopitem from '../json/item.json';
+ import shop from '../json/shop.json';
 
 function Shopswiper(props) {
-    //const iteminfo = shopitem[props.shopitem];
-    const iteminfo = shopitem[props.objnm].shop[0].diffuser;
-    console.log(iteminfo)
+    const iteminfo = shop[props.objnm];
+    // console.log(iteminfo[0].diffuser.img);
+    console.log('----',shop,props.objnm)
 
     return (
         
         <div className='container'>
 
                 <h3 className='py-5'>{props.title}</h3>
-                <img src={props.shop} alt="" />
+                <ul className={'row ' +props.objnm}>
+                {
+                    iteminfo.img.map((v, i)=>{
+                            return (
+                            <li key={ 'img'+i} className={'col-4 '+ props.objnm + i}>
+                            <img src={v} />
+                            </li>
+                            )
+                    })
+                }
+                </ul>
+            
+        </div>
+    );
+}
+
+export default Shopswiper;
+{/* <img src={props.shop} alt="" /> */}
                 {/* <Swiper
                 slidesPerView={3}
                 spaceBetween={30}
@@ -54,9 +71,3 @@ return <li key={'shop'+i}><img src={v.img}></img></li>
                })
                 }
                 </ul> */}
-            
-        </div>
-    );
-}
-
-export default Shopswiper;

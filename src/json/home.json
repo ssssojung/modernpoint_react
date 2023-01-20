@@ -1,12 +1,12 @@
-[
-    {"navi":
-    [
+
+   [ {"navi":
+    
         {
             "naviTitle":"",
             "naviId":"",
             "naviLink":""
         }
-    ]
+    
 
     },
     {"mainbanner":
@@ -18,6 +18,6 @@
         {"mainbannerImg":"../../img/home/Main_5.jpg"}
     ]
 
-    }
-]
+    }]
+
  

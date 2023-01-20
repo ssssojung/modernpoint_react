@@ -7,7 +7,7 @@ import { FreeMode, Pagination } from "swiper";
 import '../css/arrivals.scss';
 import Newitem from '../json/item.json';
 function NewitemSwiper(props) {
-    const Niteminfo = Newitem[0][props.Newitem]
+    const Niteminfo = Newitem[props.Newitem]
     return (
         <>
            <Swiper

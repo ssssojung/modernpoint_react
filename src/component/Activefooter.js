@@ -1,8 +1,8 @@
 import React from 'react';
-import snsImg from '../json/item.json';
+import snsImg from '../json/footer.json';
 
 function Activefooter(props) {
-    const instarImg = snsImg[2][props.snsI]
+    const instarImg = snsImg[props.snsI]
     // console.log(instarImg);
     return (
         <div className='activeF px-3  ' style={{backgroundColor:"#3D3A41"}}>

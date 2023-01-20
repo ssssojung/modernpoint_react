@@ -1,11 +1,11 @@
 import React,{useState} from 'react';
 import '../css/shop.scss';
 import Shopswiper from './Shopswiper';
-// import shopitem from '../json/item.json';
 
 function Shop(props) {
-    const [shopnm, shopnmupdate] = useState(['ALL','shop']);
+    const [shopnm, shopnmupdate] = useState(['ALL','diffuser']);
     const btnupdate = (e) => {
+        e = e || window.event;
         const itemnm = e.target.getAttribute('datasrc').split(',');
         shopnmupdate(itemnm);
     }
@@ -13,13 +13,13 @@ function Shop(props) {
         <section id='shop'>
             {console.log(shopnm)}
             <div className='container d-flex justify-content-start'>
-                <button onClick={btnupdate} datasrc={['ALL','all']}>ALL</button>
-                <button onClick={btnupdate} datasrc={['DIFFUSER','diffuser']}>DIFFUSER</button>
-                <button onClick={btnupdate} datasrc={['LAMP','lamp']}>LAMP</button>
-                <button onClick={btnupdate} datasrc={['ETC','etc']}>ETC</button>
+                <a onClick={(e)=>{btnupdate(e)}} datasrc={['ALL','all']} className='px-3'>ALL</a>
+                <a onClick={(e)=>{btnupdate(e)}} datasrc={['DIFFUSER','diffuser']} className='px-3'>DIFFUSER</a>
+                <a onClick={(e)=>{btnupdate(e)}} datasrc={['LAMP','lamp']} className='px-3'>LAMP</a>
+                <a onClick={(e)=>{btnupdate(e)}} datasrc={['ETC','etc']} className='px-3'>ETC</a>
             </div>
             
-            <Shopswiper shopitem='shop' title={shopnm[0]} objnm={shopnm[1]} />
+            <Shopswiper title={shopnm[0]} objnm={shopnm[1]} />
             
         </section>
     );
