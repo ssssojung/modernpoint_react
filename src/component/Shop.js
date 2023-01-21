@@ -5,7 +5,7 @@ import Shopswiper from './Shopswiper';
 function Shop(props) {
     const [shopnm, shopnmupdate] = useState(['ALL','diffuser']);
     const btnupdate = (e) => {
-        e = e || window.event;
+        // e = e || window.event;
         const itemnm = e.target.getAttribute('datasrc').split(',');
         shopnmupdate(itemnm);
     }

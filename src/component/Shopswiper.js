@@ -32,13 +32,14 @@ function Shopswiper(props) {
                             return(
                                
                                 
-                                <SwiperSlide key={'shop'+i}>
+                                <SwiperSlide className='slideitem' key={'shop'+i}>
                                     
-                                    <p >{props.objnm}</p>
-                                    <div key={ 'img'+i} className={'col-4 '+ props.objnm + i}>
+                                    <p className={v.cls}>{props.objnm}</p>
+                                    <div key={ 'img'+i} className='col-4 slideitem'>
                                         <img src={v.img} />
-                                        <span>{v.description}</span>
-                                        <span>{v.price}</span>
+                                        <p className={ props.objnm + i}>{v.description}</p>
+                                        {/* props.objnm+i랑 함께 클래스를 쓸 수 있는 방법 찾아보기 */}
+                                        <p>{v.price}</p>
                                         <p className='btn_cart'>CART</p>
                                     </div> 
                                             

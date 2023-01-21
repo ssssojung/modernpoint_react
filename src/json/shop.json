@@ -2,74 +2,74 @@
              "diffuser":
                 [
                     {
-                        "cls":"",
+                        "cls":"d-none",
                         "img":"../../img/shop/diffuser1.jpg",
-                        "description":"",
-                        "price":""
+                        "description":"원목 각인 플라워 디퓨저 100ml",
+                        "price":"27,800원"
                     },
                     {
-                        "cls":"",
+                        "cls":"d-none",
                         "img":"../../img/shop/diffuser2.jpg",
-                        "description":"",
-                        "price":""
+                        "description":"원목 각인 화분 디퓨저",
+                        "price":"39,500원"
                     },
                     {
-                        "cls":"",
+                        "cls":"d-none",
                         "img":"../../img/shop/diffuser3.jpg",
-                        "description":"",
-                        "price":""
+                        "description":"디퓨저 실내방향제 리필액 100ml",
+                        "price":"8,900원"
                     },
                     {
-                        "cls":"",
+                        "cls":"d-none",
                         "img":"../../img/shop/diffuser4.jpg",
-                        "description":"",
-                        "price":""
+                        "description":"원목 디퓨저 전용 스틱set",
+                        "price":"1,500원"
                     },
                     {
-                        "cls":"",
+                        "cls":"d-none",
                         "img":"../../img/shop/diffuser5.jpg",
-                        "description":"",
-                        "price":""
+                        "description":"시그니처 디퓨저 실내방향제 200ml",
+                        "price":"24,800원"
                     },
                     {
-                        "cls":"",
+                        "cls":"d-none",
                         "img":"../../img/shop/diffuser6.jpg",
-                        "description":"",
-                        "price":""
+                        "description":"나그참파 인센스스틱 15g + 모던포인트 홀더 1종 set",
+                        "price":"20,800원"
                     }
                 ]
             ,
             "lamp":
                 [
                     {
-                        "cls":"",
+                        "cls":"d-none",
                         "img":"../../img/shop/lamp1.jpg",
-                        "description":"",
-                        "price":""
+                        "description":"원목 플랜테리어 LED 식물 무드등",
+                        "price":"59,800원"
                     },
                     {
-                        "cls":"",
+                        "cls":"d-none",
                         "img":"../../img/shop/lamp2.jpg",
-                        "description":"",
-                        "price":""
+                        "description":"원목 각인 플라워 무드등 디퓨저",
+                        "price":"55,000원"
                     },
                     {
-                        "cls":"",
+                        "cls":"d-none",
                         "img":"../../img/shop/lamp3.jpg",
-                        "description":"",
-                        "price":""
+                        "description":"원목 각인 이오난사 화분 LED 무드등",
+                        "price":"44,800원"
                     },
                     {
-                        "cls":"",
+                        "cls":"d-none",
                         "img":"../../img/shop/lamp4.jpg",
-                        "description":"",
-                        "price":""
+                        "description":"원목 각인 무드등",
+                        "price":"34,800원"
                     },
                     {
-                        "cls":"",
+                        "cls":"d-none",
                         "img":"../../img/shop/lamp5.jpg",
-                        "description":"",
-                        "price":""
+                        "description":"원목 스퀘어 무드등",
+                        "price":"24,800원"
                     }
                 ]
 
@@ -77,22 +77,22 @@
             "etc":
                 [
                     {
-                        "cls":"",
+                        "cls":"d-none",
                         "img":"../../img/shop/etc1.jpg",
-                        "description":"",
-                        "price":""
+                        "description":"원목 각인 이오난사 화분",
+                        "price":"19,800원"
                     },
                     {
-                        "cls":"",
+                        "cls":"d-none",
                         "img":"../../img/shop/etc2.jpg",
-                        "description":"",
-                        "price":""
+                        "description":"프리저브드 플라워 데코",
+                        "price":"3,000원"
                     },
                     {
-                        "cls":"",
+                        "cls":"d-none",
                         "img":"../../img/shop/etc3.jpg",
-                        "description":"",
-                        "price":""
+                        "description":"모던포인트 쇼핑백(선물용)",
+                        "price":"2,000원"
                     }
                 ]
             
