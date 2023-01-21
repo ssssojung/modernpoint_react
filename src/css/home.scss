@@ -11,6 +11,8 @@
         
        
     }
+    .swiper-pagination-bullet{background-color: rgba(255, 255, 255, 0.71);}
+    .swiper-pagination-bullet-active{background-color: #fafbc1; width: 20px; transition: all 0.7s; border-radius: 30px;}
     h2{font-size: 3.5rem;}
     a{color: white;}
     #menu{
