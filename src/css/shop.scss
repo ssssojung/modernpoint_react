@@ -2,6 +2,7 @@
     background: #DAD7D0;
     height: 100vh;
     padding:  200px 0;
+    a{cursor: pointer;}
      img{width: 100%;}
     .slideitem{
         width: 300px;
@@ -16,5 +17,6 @@
         letter-spacing: 0.4em;
         width: 300px;
         margin: 0 auto;
+        cursor: pointer;
      }
 }

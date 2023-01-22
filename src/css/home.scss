@@ -8,8 +8,7 @@
             position: absolute;
             left: 43%;
         }
-        
-       
+   
     }
     .swiper-pagination-bullet{background-color: rgba(255, 255, 255, 0.71);}
     .swiper-pagination-bullet-active{background-color: #fafbc1; width: 20px; transition: all 0.7s; border-radius: 30px;}
@@ -24,6 +23,16 @@
         .menuT{
             position: absolute;
             top: 200px;
+        }
+        .depth{
+
+            p{
+                display: inline-flex;
+                flex-direction: column;
+                padding-bottom: 5px;
+                border-bottom: 1px solid white;
+            }
+            // p:hover{width: ;}/
         }
     }
    
