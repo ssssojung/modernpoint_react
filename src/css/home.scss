@@ -1,13 +1,21 @@
 #home{
+   
     #header{
         width: 100vw;
         z-index: 1000;
         color: red;
         background-color: transparent;
+        @media (min-width: 768px) {
+            .logo{
+                position: absolute;
+                left: 30px;
+            }
+        }
         .logo{
             position: absolute;
             left: 43%;
         }
+        
    
     }
     .swiper-pagination-bullet{background-color: rgba(255, 255, 255, 0.71);}
