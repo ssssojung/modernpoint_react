@@ -5,7 +5,7 @@ import Mainbanner from './Mainbanner';
 import '../css/home.scss';
 function Home(props) {
     return (
-        <section id='home'>
+        <section id={props.section[0].id}>
             <Header/>
             <Mainbanner mainbn='mainbanner'/>
         </section>

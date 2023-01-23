@@ -4,7 +4,7 @@ import '../css/footer.scss';
 function Footer(props) {
     const [plusicon, updateclose]= useState(false);
     return (
-        <section id='footer' className='py-5'>
+        <section id={props.section[4].id} className='py-5'>
             <div className='d-flex justify-content-between px-5'>
                 <span>{plusicon ?  'ONE OBJECT, MORE VALUE.': <img className='px-5'src='../../img/home/logo_white.svg'/>}</span>
                 <span className='copy'>

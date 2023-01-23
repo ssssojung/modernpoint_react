@@ -10,8 +10,8 @@ function Shop(props) {
         shopnmupdate(itemnm);
     }
     return (
-        <section id='shop'>
-            {console.log(shopnm)}
+        <section id={props.section[2].id}>
+            {/* {console.log(shopnm)} */}
             <div className='container d-flex justify-content-start'>
                 <a onClick={(e)=>{btnupdate(e)}} datasrc={['ALL','all']} className='px-3'>ALL</a>
                 <a onClick={(e)=>{btnupdate(e)}} datasrc={['DIFFUSER','diffuser']} className='px-3'>DIFFUSER</a>

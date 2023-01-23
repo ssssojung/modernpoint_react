@@ -1,11 +1,13 @@
 import React from 'react';
 import NewitemSwiper from './NewitemSwiper';
+
+
 import '../css/arrivals.scss';
 
 function Arrivals(props) {
     return (
         <>
-            <section id='arrivals' className='fullImg position-relative' style={{backgroundImage : "url(../../img/arrivals/arrivals_bg.jpg)"}}>
+            <section id={props.section[1].id} className='fullImg position-relative' style={{backgroundImage : "url(../../img/arrivals/arrivals_bg.jpg)"}}>
                 <div className='d-flex ' style={{height:"100vh"}}>
                     <div className='col-3 ' >
                         <div className='d-flex flex-column align-items-start titleT'>

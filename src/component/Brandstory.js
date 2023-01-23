@@ -3,7 +3,7 @@ import '../css/brandstory.scss';
 
 function Brandstory(props) {
     return (
-        <section id='brandstory' className='fullImg' style={{backgroundImage:"url(../../img/brandstroy.jpg)"}}>
+        <section id={props.section[3].id} className='fullImg' style={{backgroundImage:"url(../../img/lookbook-2.jpg)",backgroundPosition:"center center"}}>
             <div>
                 <h4>
                     "그래도 직접 손으로 만들어야죠"

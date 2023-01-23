@@ -7,24 +7,30 @@ import Brandstory from './component/Brandstory';
 import Footer from './component/Footer';
 import './css/style.scss';
 function App() {
-  // const docuE = document.documentElement;
-  // const newCursor = document.getElementById("circularCursor");
-  // let posX = 0;
-  // let posY = 0;
-  // document.addEventListener('DOMContentLoaded',()=>{
-  //   posX = e.clientX + "px";
-  //   posY = e.clientY + "px";
-  //   newCursor.style.left = posX;
-  //   newCursor.style.top = posY;
-  // })
+  const section = [
+    {
+      id : 'home'
+    },
+    {
+      id : 'arrivals'
+    },
+    {
+      id : 'shop'
+    },
+    {
+      id : 'brandstory',
+    },
+    {
+      id : 'footer'
+    }
+  ]
   return (
     <>
-      {/* <div id='circularCursor'></div> */}
-      <Home/>
-      <Arrivals/>
-      <Shop />
-      <Brandstory/>
-      <Footer/>
+      <Home section={section}/>
+      <Arrivals section={section}/>
+      <Shop section={section}/>
+      <Brandstory section={section}/>
+      <Footer section={section}/>
     </>
   );
 }
