@@ -1,4 +1,6 @@
 import React from 'react';
+import BtnCart from './BtnCart';
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -29,7 +31,7 @@ function NewitemSwiper(props) {
                                 <span>{item.description}</span>
                                 <span>{item.price}</span>
                             </div>
-                                <p className='btn_cart'>CART</p>
+                                <BtnCart className='cart'>CART</BtnCart>
                                 
                         </div>
                     </SwiperSlide>

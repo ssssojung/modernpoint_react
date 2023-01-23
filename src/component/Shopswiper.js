@@ -1,4 +1,6 @@
 import React from 'react';
+import BtnCart from './BtnCart';
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -40,7 +42,7 @@ function Shopswiper(props) {
                                         <p className={ props.objnm + i}>{v.description}</p>
                                         {/* props.objnm+i랑 함께 클래스를 쓸 수 있는 방법 찾아보기 */}
                                         <p>{v.price}</p>
-                                        <p className='btn_cart'>CART</p>
+                                        <BtnCart className='cart'>CART</BtnCart>
                                     </div> 
                                             
 
