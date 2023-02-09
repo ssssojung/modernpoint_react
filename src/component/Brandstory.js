@@ -1,11 +1,12 @@
 import React from 'react';
+import 'animate.css';
 import '../css/brandstory.scss';
 
 function Brandstory(props) {
     return (
-        <section id={props.section[3].id} className='fullImg' style={{backgroundImage:"url(../../img/lookbook-2.jpg)",backgroundPosition:"center center"}}>
-            <div>
-                <h4>
+        <section id={props.section[3].id}  className='fullImg' style={{backgroundImage:"url(../../img/lookbook-2.jpg)", backgroundPosition:"center center"}}>
+            <div className='animate__animated animate__animate__fadeInDown'>
+                <h4 >
                     "그래도 직접 손으로 만들어야죠"
                 </h4>
                 <p>

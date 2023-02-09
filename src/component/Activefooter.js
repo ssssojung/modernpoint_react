@@ -14,7 +14,7 @@ function Activefooter(props) {
                         instarImg.map((item, index)=>{
                             return(
                                  <div className='img_box me-3' key={'f'+index}>
-                                    <img className='scale' src={item.snsImg} alt="인스타그램사진" />
+                                    <img className={'scale'+index} src={item.snsImg} alt="인스타그램사진" />
                                 </div>
                             )
                             

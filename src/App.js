@@ -1,3 +1,4 @@
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import './css/home.scss';
 import Home from './component/Home';
@@ -18,20 +19,20 @@ function App() {
       id : 'shop'
     },
     {
-      id : 'brandstory',
+      id : 'brandstory'
     },
     {
       id : 'footer'
     }
   ]
   return (
-    <>
+    <React.Fragment>
       <Home section={section}/>
       <Arrivals section={section}/>
       <Shop section={section}/>
       <Brandstory section={section}/>
       <Footer section={section}/>
-    </>
+    </React.Fragment>
   );
 }
 

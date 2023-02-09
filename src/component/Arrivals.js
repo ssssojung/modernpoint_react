@@ -1,5 +1,6 @@
 import React from 'react';
 import NewitemSwiper from './NewitemSwiper';
+import Button from './UI/Button';
 
 
 import '../css/arrivals.scss';
@@ -13,7 +14,7 @@ function Arrivals(props) {
                         <div className='d-flex flex-column align-items-start titleT'>
                             <h2>New Arrivals</h2>
                             <p>가장 먼저 만나보는 모던포인트의 신제품</p>
-                            <a href=""><p className='btn_box'>새로운 제품 더보기</p></a>
+                            <Button>새로운 제품 더보기</Button>
                         </div>
                     </div>
                     <div className='col-9 ps-2 align-item-end' >

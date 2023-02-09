@@ -1,5 +1,5 @@
 import React from 'react';
-import BtnCart from './BtnCart';
+import BtnCart from './UI/BtnCart';
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
