@@ -13,11 +13,24 @@ function NewitemSwiper(props) {
     return (
         <>
            <Swiper
-            slidesPerView={3}
-            spaceBetween={30}
-            freeMode={true}
-            modules={[FreeMode]}
-            className="mySwiper d-flex align-items-center"
+            slidesPerView={1.5}
+            spaceBetween={10}  
+            //centerMode={true}       
+            
+            className="mySwiper"
+            breakpoints={{
+             
+              991:{
+              slidesPerView:3 ,
+              spaceBetween :10            
+              },
+              1440:{
+              slidesPerView:3,
+              spaceBetween : 30
+              }
+              
+              }}
+
             
             >
 
@@ -27,9 +40,9 @@ function NewitemSwiper(props) {
                     <SwiperSlide key={'newbanner'+index}>
                         <div className='item_box '>
                             <img src={item.thumblink} alt="itemImg" />
-                            <div className='py-3 text-dark betweenText d-flex justify-content-between'>
-                                <span>{item.description}</span>
-                                <span>{item.price}</span>
+                            <div className='py-3 text-dark betweenText d-lg-flex d-md-block d-sm-flex justify-content-between'>
+                                <span className='d-block'>{item.description}</span>
+                                <span className='d-block'>{item.price}</span>
                             </div>
                                 <BtnCart className='cart'>CART</BtnCart>
                                 

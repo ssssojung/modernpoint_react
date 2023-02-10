@@ -24,6 +24,32 @@ body{
 //     position: absolute;
 //     z-index: 1;
 // }
+@media (min-width:1780px) {
+
+    .container-fluid{
+  padding: 0 80px;
+    } 
+}
+
+
+.font14161824{
+    font-size: 24px !important;
+}
+@media (max-width:1024) {
+.font14161824{
+    font-size: 18px !important;
+}
+}
+@media (max-width:991px) {
+.font14161824{
+    font-size: 16px !important;
+}
+}
+@media (max-width:768px) {
+.font14161824{
+    font-size: 14px !important;
+}
+}
 
 .fullImg{
     min-height: 100vh;

@@ -15,17 +15,32 @@ function Shopswiper(props) {
 
     return (
         
-        <div className='container'>
+        <div className=''>
+            <div className='mb-5 pb-5  px-xxl-0 px-3 px-md-5'>
 
-                <h3 className='py-5'>{props.title}</h3>
+           
+
+                <h3 className='pt-3 pb-5 text-center'>{props.title}</h3>
                 
                 
                     <Swiper
-                    slidesPerView={3}
-                    spaceBetween={30}
-                    freeMode={true}
-                    modules={[FreeMode]}
-                     className='mySwiper d-flex align-items-center'
+                    slidesPerView={1.5}
+                    spaceBetween={10}
+                    
+                    breakpoints={{
+             
+                        991:{
+                        slidesPerView:3 ,
+                        spaceBetween :10            
+                        },
+                        1440:{
+                        slidesPerView:3,
+                        spaceBetween : 30
+                        }
+                        
+                        }}
+                   
+                     className='mySwiper'
                     
                     >
                     <ul className={'row ' +props.objnm}>
@@ -37,8 +52,8 @@ function Shopswiper(props) {
                                 <SwiperSlide className='slideitem' key={'shop'+i}>
                                     
                                     <p className={v.cls}>{props.objnm}</p>
-                                    <div key={ 'img'+i} className='col-4 slideitem'>
-                                        <img src={v.img} />
+                                    <div key={ 'img'+i} >
+                                        <img src={v.img} className='img-fluid' />
                                         <p className={ props.objnm + i}>{v.description}</p>
                                         {/* props.objnm+i랑 함께 클래스를 쓸 수 있는 방법 찾아보기 */}
                                         <p>{v.price}</p>
@@ -59,6 +74,7 @@ function Shopswiper(props) {
                 
             
         </div>
+    </div>
     );
 }
 
